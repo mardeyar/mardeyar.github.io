@@ -53,4 +53,13 @@
 
 .proj-info p {
     font-family: 'Poppins', sans-serif;
+    font-size: 11pt;
+    margin: 30px;
+}
+
+.proj-info a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #555;
+    font-size: 22pt;
 }
