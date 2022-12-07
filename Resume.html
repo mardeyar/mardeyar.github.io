@@ -1,3 +1,6 @@
+<!--Created by Mark Deyarmond 2022
+All work written by Mark Deyarmond-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,13 +22,14 @@
     <header class="MDLogo">
         <img class="logo" src="./Images/Logos/header-tran.png" alt="header-tran.png">
         <nav class="navi">
-            <a href="./index">Home</a>
-            <a href="./Contact">Contact</a>
-            <a href="./Projects">Projects</a>
-            <a href="./Skills">Skills</a>
-            <a href="./Resume">Resume</a>
+            <a href="index.html">Home</a>
+            <a href="Contact.html">Contact</a>
+            <a href="Projects.html">Projects</a>
+            <a href="Skills.html">Skills</a>
+            <a href="Resume.html">Resume</a>
         </nav>
         
+        <!--This section is for mobile hamburger menu: this is hidden at desktop size and becomes visible on tablet size--> 
         <div class="hamburger-menu">
             <input id="menu-toggle" type="checkbox">
             <label class="menu-btn" for="menu-toggle">
@@ -33,17 +37,53 @@
         </label>
 
         <ul class="menu-box">
-            <li><a class="menu-item" href="./index">Home</a></li>
-            <li><a class="menu-item" href="./Contact">Contact</a></li>
-            <li><a class="menu-item" href="./Projects">Projects</a></li>
-            <li><a class="menu-item" href="./Skills">Skills</a></li>
-            <li><a class="menu-item" href="./Resume">Resume</a></li>
+            <li><a class="menu-item" href="index.html">Home</a></li>
+            <li><a class="menu-item" href="Contact.html">Contact</a></li>
+            <li><a class="menu-item" href="Projects.html">Projects</a></li>
+            <li><a class="menu-item" href="Skills.html">Skills</a></li>
+            <li><a class="menu-item" href="Resume.html">Resume</a></li>
         </ul>
         </div>
     </header>
 
-    <section id="resume">
-        <img id="resume-img" src="./Images/Resume/resume.jpg" alt="resume.jpg">
+    <section class="resume-doc">
+        <h1 id="resume-header">Resume</h1>
+        <div id="resume-skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>Java & Web development</li>
+                <li>Database structuring and design</li>
+                <li>Secure Networking practices and implementation</li>
+                <li>UI Design & Development</li>
+                <li>Windows/Linux Admin Operations</li>
+                <li>Problem Solving & Critical Thinking</li>                
+            </ul>
+        </div>
+        <div id="resume-achievements">
+            <h3>Achievements</h3>
+            <ul>
+                <li>Created a data structure to keep track of arriving fresh product to determine what to order for best margins. Was able to increase margins consistently by 8%.</li>
+                <li>Maintained stellar customer relations daily: placed top 8 in Canada for <i>Site Manager of the year</i> as a result</li>
+                <li>Kept average education grade over 90% for all IT Programming studies</li>
+                <li>Compiled first Java mini game error free in week 3 of studies.</li>              
+            </ul>
+        </div>
+        <div id="resume-work">
+            <h3>Work Experience</h3>
+            <h4>December 2018 - May 2022</h4>
+            <p>Franchisee | Needs Convenience</p>
+            <h4>June 2017 - December 2018</h4>
+            <p>Manager | Needs Convenience, St. Margaret's Bay</p>
+        </div>
+        <div id="resume-education">
+            <h3>Education</h3>
+            <h4>2022</h4>
+            <p>IT Programming | NSCC eCampus</p>
+            <h4>2021</h4>
+            <p>IT Support Profession Certificate | Coursera</p>
+            <h4>2009</h4>
+            <p>High School Diploma | Cobequid Educational Centre</p>
+        </div>
     </section>
     
     <footer class="footer">

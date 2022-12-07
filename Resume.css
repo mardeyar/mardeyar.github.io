@@ -1,10 +1,76 @@
-#resume {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+/*Created by Mark Deyarmond 2022
+All work written by Mark Deyarmond*/
+
+.resume-doc {
+    display: block;
+    background-color: #EEEDE7;
+    margin: 50px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 4px 12px rgb(97, 97, 97);
 }
 
-#resume-img {
-    box-shadow: 0px 1px 3px rgb(32, 32, 32);
+#resume-header {
+    text-align: center;
+    font-size: 28pt;
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+}
+
+#resume-skills {
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+}
+
+#resume-skills h3 {
+    margin: 10px;
+    font-size: 14pt;
+}
+
+#resume-achievements {
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+}
+
+#resume-achievements h3 {
+    margin: 10px;
+    font-size: 14pt;
+}
+
+#resume-work {
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+}
+
+#resume-work h3 {
+    margin: 10px;
+    font-size: 14pt;
+}
+
+#resume-work h4, p {
+    margin-left: 10px;
+}
+
+#resume-education {
+    margin: 10px;
+    padding: 10px;
+}
+
+#resume-education h3 {
+    margin: 10px;
+    font-size: 14pt;
+}
+
+#resume-education h4, p {
+    margin-left: 10px;
+}
+
+ul {
+    margin-bottom: 20px;
 }
