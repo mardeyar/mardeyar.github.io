@@ -118,8 +118,8 @@
 }
 
 /* ----------------- Resume CSS ----------------- */
-#resume-img {
-    width: 95vw;
+.resume-doc {
+    width: 80%;
 }
 
 /* ----------------- Hamburger menu for mobile devices ----------------- */

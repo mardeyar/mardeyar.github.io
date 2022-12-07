@@ -131,8 +131,8 @@
 }
 
 /* -----------------Resume CSS----------------- */
-#resume-img {
-    width: 95vw;
+.resume-doc {
+    width: 80%;
 }
 
 /* -----------------Footer Mobile----------------- */
