@@ -7,7 +7,7 @@
 </head>
 <body>
 
-  <a href="./">Mark Deyarmond Website</a>
+  <a href="https://mardeyar.github.io/index">Mark Deyarmond Website</a>
     
 </body>
 </html>
