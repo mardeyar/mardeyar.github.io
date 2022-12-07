@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to right top, #868b8e, #888f92, #8b9297, #8d969b, #8f9a9f, #919ea2, #94a1a6, #96a5a9, #99aaad, #9dafb0, #a0b3b4, #a4b8b7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.MDLogo {
+    background-image: linear-gradient(to right top, #868b8e, #8b9194, #909699, #959c9f, #9aa2a5, #9ea7a9, #a1abae, #a5b0b2, #a8b4b6, #abb9ba, #aebdbd, #b1c2c1);
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 12px rgb(97, 97, 97);
+}
+
+.logo {
+    float: left;
+    width: 95px;
+    margin-left: 4%;
+}
+
+.navi {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16pt;
+    margin: 2px;
+    padding: 3px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: 30%;
+    border-radius: 0px;
+}
+
+.navi a {
+    text-decoration: none;
+    color: #555;
+    margin: 10px;
+    padding: 15px;
+}
+
+.navi a:hover {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: rgb(31, 31, 31);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.822);
+    font-family: 'Poppins', sans-serif;
+    color: rgb(197, 197, 197);
+    padding: 5px;
+    bottom: 0;
+}
+
+@media screen and (min-width: 1537px){
+    .hamburger-menu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1536px) {
+    .navi {
+        display: none;
+    }
+}

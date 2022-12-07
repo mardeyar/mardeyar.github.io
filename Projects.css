@@ -1,0 +1,56 @@
+.project-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-banner {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #EEEDE7;
+    width: 55%;
+    padding: 50px;
+    border-radius: 35px;
+    border: 1px solid black;
+    box-shadow: 0px 4px 12px rgb(97, 97, 97);
+}
+
+.project-banner h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36pt;
+    text-align: center;
+}
+
+.project-line {
+    width: 60%;
+    height: 1px;
+    background-color: #555;
+}
+
+.project-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.proj-info {
+    text-align: center;
+    margin: 40px;
+    background-color: #EEEDE7;
+    padding: 30px;
+    border-radius: 25px;
+    border: 1px solid black;
+    box-shadow: 0px 4px 12px rgb(97, 97, 97);
+    width: 25%;
+}
+
+.proj-info h3 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 42pt;
+    padding: 20px;
+}
+
+.proj-info p {
+    font-family: 'Poppins', sans-serif;
+}

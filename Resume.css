@@ -1,0 +1,10 @@
+#resume {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#resume-img {
+    box-shadow: 0px 1px 3px rgb(32, 32, 32);
+}

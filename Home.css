@@ -1,0 +1,123 @@
+#home-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 75px;
+    margin-bottom: 47px;
+}
+
+#home-left-column {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+#self-image {
+    border-radius: 50%;
+    box-shadow: 0px 4px 12px rgb(97, 97, 97);
+    border: 1px dotted rgb(0, 0, 0);
+}
+
+#home-right-column {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+#home-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEDE7;
+    border: 1px solid black;
+    border-radius: 35px 35px 35px 0px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 12px rgb(97, 97, 97);
+    width: 95%;
+    margin-bottom: 4%;
+    padding: 10px;
+}
+
+#home-name h1 {
+    font-family: 'Caveat', cursive;
+    color: rgba(0, 0, 0, 0.733);
+    margin-left: 20px;
+    font-size: 60pt;
+    margin-top: .8%;
+    margin-bottom: .8%;
+}
+
+#home-name h3 {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(58, 58, 58);
+    margin-left: 20px;
+    font-size: 42pt;
+    margin-top: .8%;
+    margin-bottom: .8%;
+}
+
+#home-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEDE7;
+    border: 1px solid black;
+    border-radius: 35px 35px 35px 0px;
+    box-shadow: 0px 4px 12px rgb(97, 97, 97);
+    width: 95%;
+}
+
+#home-about p {
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 22pt;
+    margin: 50px;
+}
+
+#home-line {
+    background-color: #555;
+    width: 500px;
+    height: 1px;
+    margin-bottom: 35px;
+    width: 70%;
+}
+
+#home-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 21px;
+}
+
+#home-info-mark {
+    padding: 10px;
+    background-color: #EEEDE7;
+    border: 1px solid black;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 4px 12px rgb(97, 97, 97);
+    width: 70%;
+}
+
+#home-info-mark h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    margin: 15px;
+}
+
+#home-info-mark p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12pt;
+    padding: 5px;
+    margin: 15px;
+}
