@@ -7,7 +7,7 @@
 </head>
 <body>
 
-  <a href="./index">Mark Deyarmond Website</a>
+  <a href="./">Mark Deyarmond Website</a>
     
 </body>
 </html>
