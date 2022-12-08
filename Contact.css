@@ -13,14 +13,14 @@
     margin: 25px;
 }
 
-#contact-btn {
+.contact-btn {
     border: 1px solid rgb(0, 0, 0);
     border-radius: 50%;
     box-shadow: 0px 4px 12px rgb(97, 97, 97);
     width: 150px;
 }
 
-#contact-card {
+.contact-card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +36,7 @@
     width: 800px;
 }
 
-#contact-card a {
+.contact-card a {
     text-decoration: none;
     color: #555;
 }
