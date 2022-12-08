@@ -1,3 +1,6 @@
+/*Created by Mark Deyarmond 2022
+All work written by Mark Deyarmond*/
+
 .MDLogo {
     background-image: linear-gradient(to right top, #868b8e, #8b9194, #909699, #959c9f, #9aa2a5, #9ea7a9, #a1abae, #a5b0b2, #a8b4b6, #abb9ba, #aebdbd, #b1c2c1);
     margin-left: auto;
@@ -67,10 +70,10 @@
     align-items: center;
 }
 
-#contact-card {
+.contact-card {
     flex-direction: column;
-    width: 600px;
     margin: 30px;
+    width: 600px;
 }
 
 /* ----------------- Project CSS ----------------- */

@@ -76,14 +76,13 @@ All work written by Mark Deyarmond*/
     align-items: center;
     width: 80%;
     padding: 20px;
-    box-shadow: 0px 1px 3px rgba(36, 36, 36, 0.575);
 }
 
-#contact-btn {
+.contact-btn {
     margin-top: 15px;
 }
 
-#contact-card {
+.contact-card {
     flex-direction: column;
     width: 280px;
     font-size: 12pt;
