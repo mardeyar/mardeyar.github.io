@@ -1,3 +1,6 @@
+/*Created by Mark Deyarmond 2022
+All work written by Mark Deyarmond*/
+
 .MDLogo {
     background-image: linear-gradient(to right top, #868b8e, #8b9194, #909699, #959c9f, #9aa2a5, #9ea7a9, #a1abae, #a5b0b2, #a8b4b6, #abb9ba, #aebdbd, #b1c2c1);
     margin-left: auto;
@@ -25,28 +28,38 @@
 }
 
 #home-name {
-    border-radius: 35px;
+    border-radius: 25px;
     font-size: 14pt;
     padding: 20px;
+    width: 80%;
 }
 
 #home-name h1 {
     font-size: 24pt;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #home-name h3 {
     font-size: 18pt;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #home-about {
-    border-radius: 35px;
+    border-radius: 25px;
+    width: 80%;
+    padding: 20px;
 }
 
 #home-about p {
     font-size: 12pt;
     margin: 10px;
+}
+
+#home-info-mark {
+    width: 80%;
+    padding: 10px;
 }
 
 #home-info-mark p {
@@ -133,6 +146,39 @@
 /* -----------------Resume CSS----------------- */
 .resume-doc {
     width: 80%;
+    font-size: 14pt;
+}
+
+#resume-header {
+    font-size: 18pt;
+}
+
+#resume-skills h3 {
+    font-size: 11pt;
+}
+
+#resume-achievements h3 {
+    font-size: 11pt;
+}
+
+#resume-work h3 {
+    font-size: 11pt;
+}
+
+#resume-work h4, p {
+    font-size: 10pt;
+}
+
+#resume-education h3 {
+    font-size: 11pt;
+}
+
+#resume-education h4, p {
+    font-size: 10pt;
+}
+
+li {
+    font-size: 8pt;
 }
 
 /* -----------------Footer Mobile----------------- */
